@@ -6,7 +6,7 @@
 
 
 * Ruby version >= 2.3
-* Ruby on Rails 4.2.x
+* Ruby on Rails >= 4.2.7
 * PostgreSQL >= 9.4 con extensión unaccent disponible
 * Recomendado sobre adJ 5.8 (que incluye todos los componentes mencionados) 
   usando bundler con doas, ver 
