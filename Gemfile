@@ -14,6 +14,10 @@ gem 'puma'
 # CSS
 gem "sass"
 
+gem 'font-awesome-rails'
+
+gem 'chosen' 
+
 # Color en terminal
 gem "colorize"
 
@@ -118,7 +122,7 @@ group :test do
   gem "capybara-webkit" 
 
   # Envia resultados de pruebas desde travis a codeclimate
-  gem "codeclimate-test-reporter", require: nil
+  #gem "codeclimate-test-reporter", require: nil
 end
 
 
