@@ -75,6 +75,10 @@ gem "tzinfo-data"
 gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git'
 #gem 'sip', path: '../sip'
 
+# Motor de heb412
+gem 'heb412_gen', git: 'https://github.com/pasosdeJesus/heb412_gen.git'
+#gem 'heb412_gen', path: '../heb412_gen'
+
 # Motor de SIVeL 2
 gem 'sivel2_gen', git: 'https://github.com/pasosdeJesus/sivel2_gen.git'
 #gem 'sivel2_gen', path: '../sivel2_gen'
