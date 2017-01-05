@@ -100,10 +100,6 @@ group :test do
   # Acelera ejecutando en fondo.  https://github.com/jonleighton/spring
   gem "spring"
 
-  # Pruebas con rspec
-  gem 'spring-commands-rspec'
-  gem 'rspec-rails'
-
   # Maneja datos de prueba
   gem "factory_girl_rails", group: [:development, :test]
 
@@ -113,16 +109,16 @@ group :test do
   # Lanza programas para examinar resultados
   gem "launchy"
 
-  # Para examinar errores, usar "rescue rspec" en lugar de "rspec"
   gem 'pry-rescue'
   gem 'pry-stack_explorer'
 
   # Pruebas de regresión que no requieren javascript
   gem "capybara"
-  
-  # Pruebas de regresión que requieren javascript
-  gem "capybara-webkit" 
 
+  gem "connection_pool"
+  gem "minitest-reporters" 
+  gem "poltergeist" 
+  gem 'minitest-rails-capybara'
   # Envia resultados de pruebas desde travis a codeclimate
   #gem "codeclimate-test-reporter", require: nil
 end
