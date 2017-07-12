@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 #ruby ">= 2.2"
 
 # Rails (internacionalización)
-gem "rails", '~> 5.0.0'
+gem "rails", '~> 5.1.0'
 gem "rails-i18n"
 
 # Postgresql
@@ -40,7 +40,7 @@ gem "jquery-rails"
 gem "jquery-ui-rails"
 
 # Seguir enlaces más rápido. Ver: https://github.com/rails/turbolinks
-gem "turbolinks", '2.5.3'
+gem "turbolinks"
 
 # Ambiente de CSS
 gem "twitter-bootstrap-rails"
@@ -116,8 +116,6 @@ group :test do
   gem "minitest-reporters" 
   gem "poltergeist" 
   gem 'minitest-rails-capybara'
-  # Envia resultados de pruebas desde travis a codeclimate
-  #gem "codeclimate-test-reporter", require: nil
 end
 
 
