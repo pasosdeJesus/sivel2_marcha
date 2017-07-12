@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/heb412_gen.git
-  revision: 3782caf5f751faa8f7f0732ed785c0cdec3cc0c0
+  revision: 8df2b183f3d8afd3fd864b7acedf5fb700bdbc4d
   specs:
     heb412_gen (1.0.a1)
       chosen-rails
@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: ff0d1dc1153096fff2a331f99cf1f72a66c7d58c
+  revision: d1f6332e94765ceb13e058b147f7ca037dd7817f
   specs:
     sip (2.0.b3)
       bootstrap-datepicker-rails
@@ -21,7 +21,7 @@ GIT
       devise-i18n
       jquery-rails
       jquery-ui-rails
-      minitest (= 5.10.1)
+      minitest
       paperclip
       rails
       rails-i18n
@@ -32,7 +32,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sivel2_gen.git
-  revision: cbc153c2d823a207c10518e6306e6a29f254ae30
+  revision: e57537936d2de74a70f21e9296409efe8c9eb714
   specs:
     sivel2_gen (2.0b2)
       devise
@@ -146,7 +146,7 @@ GEM
       railties (>= 3.2, < 5.2)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
-    i18n (0.8.4)
+    i18n (0.8.6)
     interception (0.5)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -177,7 +177,7 @@ GEM
     mime-types-data (3.2016.0521)
     mimemagic (0.3.2)
     mini_portile2 (2.2.0)
-    minitest (5.10.1)
+    minitest (5.10.2)
     minitest-capybara (0.8.2)
       capybara (~> 2.2)
       minitest (~> 5.0)
@@ -273,7 +273,7 @@ GEM
       rubyzip (~> 1.1)
     ruby-progressbar (1.8.1)
     rubyzip (1.2.1)
-    sass (3.4.24)
+    sass (3.4.25)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
       sass (~> 3.1)
